@@ -1,5 +1,7 @@
 let field = 2;
-let type = typeof(field)
+// let field = '2';
+// let field;
+let type = typeof(field);
 
 switch (type) {
     case ('number'):
