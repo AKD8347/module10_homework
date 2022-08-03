@@ -1,6 +1,6 @@
 let input = prompt('Введите значение');
 let result = +input;
-if (isNaN(result)) {
+if (isNaN(result) || result == 0) {
     console.log('Упс, кажется, вы ошиблись')
 } else  {
     if (result % 2 == 0) {

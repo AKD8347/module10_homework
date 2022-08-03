@@ -1,5 +1,6 @@
 let field = 2;
 // let field = '2';
+// let field = true;
 // let field;
 let type = typeof(field);
 
